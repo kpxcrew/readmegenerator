@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function initiate() {
   inquirer.prompt(questions).then((inquirerResponses) => {
-    console.log("Success, your file is located in the dist directory");
+    console.log("Completed! Your file has been created!");
     writeToFile("README.md", generateMarkdown({
       ...inquirerResponses
     }))

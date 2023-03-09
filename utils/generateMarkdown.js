@@ -49,7 +49,6 @@ function renderLicenseBadge(license) {
   ${data.description}
 
   ## Table of Contents
-  ${data.tableOfContents}
   * [Installation](#installation)
   * [Usage](#usage)
   * [Questions](#questions)
@@ -58,7 +57,7 @@ function renderLicenseBadge(license) {
   * [Contributing](#contributing)
   
   ## Instillation
-  ${data.instillation}
+  ${data.installation}
   
   ## Usage
   ${data.usage}
@@ -66,11 +65,11 @@ function renderLicenseBadge(license) {
   ${renderLicenseLink(data.license)}
   
   ## Questions 
-  ${data.questions}
+  Any questions? Reach me through my email!
   ${data.email}
 
   ## Tests
-  ${data.tests}
+  ${data.test}
   
   ## Contributing 
   ${data.contributing}
